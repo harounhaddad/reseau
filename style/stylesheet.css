@@ -1,0 +1,276 @@
+/* Index page */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../img/background.jpg") no-repeat fixed;
+    font-family: Arial;
+    background-size: cover;
+}
+
+.menu {
+    width: 35%;
+    height: 50px;
+    float: right;
+}
+
+
+.header {
+    width: 60%;
+    margin: 0 auto;
+    height: 65px;
+}
+
+.menu ul {
+    position: fixed;
+    top: 0px;
+}
+
+.menu ul li {
+    float: right;
+    margin-left: -10px;
+    padding: 10px;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #C0C0C0;
+    border: 2px solid #C0C0C0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.menu ul li a:hover {
+    background: #fff;
+    color: #C0C0C0;
+}
+
+
+
+.logo {
+    float: left;
+    height: 50px;
+    margin-top: 5px;
+    position: fixed;
+    top: 0px;
+}
+
+.logo a {
+    color: #C0C0C0;
+    padding: 7px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.logo a:hover {
+    color: #fff;
+}
+
+/* Register page */
+
+.re {
+    width: 60%;
+    margin: 0 auto;
+    clear: both;
+    margin-top: 22px;
+}
+
+.re h2 {
+    text-align: center;
+    color: #5F9EA0;
+    border-bottom: 2px solid #d4d4d4;
+    color: black;
+    padding: 3px;
+}
+
+.re form {
+    background: #fff;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form_group {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.form_group input[type="text"] {
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 17px;
+    color: cadetblue;
+}
+
+.form_group input[type="email"] {
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 17px;
+    color: cadetblue;
+}
+
+.form_group input[type="password"] {
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 17px;
+    color: cadetblue;
+}
+
+.re input[type="submit"] {
+    text-align: center;
+    padding: 10px;
+    color: cadetblue;
+    border: none;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 5px;
+}
+
+.re input[type="submit"]:hover {
+    background: cadetblue;
+    color: azure;
+}
+
+.terms {
+    color: cadetblue;
+    font-size: 17px;
+    margin: auto;
+}
+
+.terms a {
+    text-decoration: none;
+    color: lightcoral;
+}
+    
+.re .birthday {
+    font-size: 17px;
+    text-align: center;
+    color: cadetblue;
+}
+
+.re .born {
+    text-align: center;
+    padding: 10px;
+    color: cadetblue;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5px;
+}
+
+/* Login page */
+.forgot {
+    text-align: center;
+}
+.forgot a {
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 11px;
+}
+
+/* footer */
+.footer {
+    width: 99%;
+    padding: 5px;
+    position: fixed; bottom: 0px; 
+    margin: 0 auto;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.footer_c {
+    font-size: 10px;
+    bottom: 0;
+    color: #fff;;
+}
+
+/* register and login errors */
+.error {
+    text-align: center;
+    padding: 5px;
+    background: #fff;
+    border: 2px solid red;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 22%;
+    margin-bottom: 5px;
+}
+
+/* Register and login success*/
+.sucreg {
+    border: 5px solid green;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+    background: #fff;
+    color: cadetblue;
+}
+
+.sucreg a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.sucreg a:hover {
+    color: #fff;
+}
+
+.suc {
+    border: 2px solid #99b199;
+    border-radius: 10px;
+    background: green;
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    color: #fff;
+    font-size: 25px;
+}
+
+/* Member Infos */
+.info {
+    background-color: #fff;
+    width: 40%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 26px;
+}
+
+.info .menuinfo {
+    border: 5px solid #c6cde0;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.info .menuinfo li {
+    list-style: none;
+}
+
+.info .menuinfo img.avatarimg {
+    width: 128px;
+    height: 128px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid #3ead64;
+}
+
+.info .menuinfo .avatch {
+    text-align: center;
+    text-decoration: none;
+}
+
+
